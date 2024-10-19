@@ -1,0 +1,9 @@
+config BR2_PACKAGE_RTAUDIO
+    bool "rtaudio"
+    select BR2_PACKAGE_ALSA_LIB
+    select BR2_PACKAGE_JACK2
+    help
+      RtAudio is a set of C++ classes that provide a common API for realtime
+      audio input/output across different operating systems.
+
+      https://www.music.mcgill.ca/~gary/rtaudio/

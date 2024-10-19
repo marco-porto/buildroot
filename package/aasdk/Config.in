@@ -1,0 +1,11 @@
+config BR2_PACKAGE_AASDK
+	bool "aasdk"
+	select BR2_PACKAGE_LIBUSB
+	select BR2_PACKAGE_OPENSSL
+	select BR2_PACKAGE_BOOST
+	select BR2_PACKAGE_PROTOBUF
+	help
+	  AASDK is an implementation of the Android Auto protocol.
+
+	  https://github.com/marco-porto/aasdk
+

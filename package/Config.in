@@ -9,6 +9,12 @@ menu "Target packages"
 	source "package/skeleton-init-systemd/Config.in"
 	source "package/skeleton-init-sysv/Config.in"
 
+menu "Android auto packages"
+	source "package/aasdk/Config.in"
+	source "package/openauto/Config.in"
+	source "package/rtaudio/Config.in"
+endmenu
+
 menu "Audio and video applications"
 	source "package/alsa-utils/Config.in"
 	source "package/atest/Config.in"

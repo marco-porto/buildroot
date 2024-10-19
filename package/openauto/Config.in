@@ -1,0 +1,7 @@
+config BR2_PACKAGE_OPENAUTO
+    bool "openauto"
+    help
+      OpenAuto is an Android Auto head unit emulator.
+
+      https://github.com/marco-porto/openauto
+
